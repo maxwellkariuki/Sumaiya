@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2; /* Light pink background */
+    color: #333;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    transition: background-color 0.5s; /* Smooth background transition */
+}
+
+header {
+    background: #ff6f61; /* Main header color */
+    color: #fff;
+    padding: 20px 0; /* Padding for better appearance */
+    text-align: center;
+    border-bottom: 5px solid #ff3b30; /* Optional: Add a border for separation */
+    transition: background-color 0.5s; /* Smooth header transition */
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ff6f61; /* Pink color for links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth link color transition */
+}
+
+nav a:hover {
+    color: #ff3b30; /* Darker pink on hover */
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for sections */
+}
+
+.section:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+#music-toggle {
+    background-color: #ff6f61; /* Customize color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth button transition */
+}
+
+#music-toggle:hover {
+    background-color: #ff3b30; /* Darker shade on hover */
+}
+
+.daily-question {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-align: center;
+    transition: opacity 0.5s; /* Smooth opacity transition */
+}
+
+#answer-output {
+    margin: 10px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Additional styles for fixed navigation */
+.navbar {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Smooth transition for navbar */
+}
+
+.navbar:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+/* Animation for quotes */
+.quote-animation {
+    animation: fadeIn 1s forwards; /* Animation for quotes */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumaiya's Hometab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="text-center my-4">
+        <h1>Sumaiya's Hometab</h1>
+        <button id="music-toggle" class="btn btn-primary" onclick="toggleMusic()" aria-label="Toggle Music">Play Music</button>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" id="content"></div>
+            <nav class="col-md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="loadSection('home')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="loadSection('about')">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <footer class="text-center my-4">
+        <p>&copy; 2024 Please marry me Sumaiya :></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
